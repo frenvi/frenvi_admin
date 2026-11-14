@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+=======
+# Dependencies
+node_modules
+
+# Build
+dist
+dist-ssr
+*.local
+
+# Env (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+>>>>>>> 6333108 (Update Frenvi Admin)
 # Logs
 logs
 *.log
@@ -7,12 +23,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+<<<<<<< HEAD
 node_modules
 dist
 dist-ssr
 *.local
 
 # Editor directories and files
+=======
+# Editor / OS
+>>>>>>> 6333108 (Update Frenvi Admin)
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,3 +42,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
+=======
+Thumbs.db
+>>>>>>> 6333108 (Update Frenvi Admin)
