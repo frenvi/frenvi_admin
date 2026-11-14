@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -34,6 +35,8 @@ export default defineConfig({
     }
   }
 =======
+=======
+>>>>>>> 96a8878 (Update Frenvi Admin)
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -72,5 +75,8 @@ export default defineConfig(({ mode }) => {
       }
     }
   };
+<<<<<<< HEAD
 >>>>>>> 6333108 (Update Frenvi Admin)
+=======
+>>>>>>> 96a8878 (Update Frenvi Admin)
 });

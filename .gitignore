@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 96a8878 (Update Frenvi Admin)
 # Dependencies
 node_modules
 
@@ -13,7 +16,10 @@ dist-ssr
 .env.*
 !.env.example
 
+<<<<<<< HEAD
 >>>>>>> 6333108 (Update Frenvi Admin)
+=======
+>>>>>>> 96a8878 (Update Frenvi Admin)
 # Logs
 logs
 *.log
@@ -24,6 +30,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 node_modules
 dist
 dist-ssr
@@ -33,6 +40,9 @@ dist-ssr
 =======
 # Editor / OS
 >>>>>>> 6333108 (Update Frenvi Admin)
+=======
+# Editor / OS
+>>>>>>> 96a8878 (Update Frenvi Admin)
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -43,6 +53,10 @@ dist-ssr
 *.sln
 *.sw?
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Thumbs.db
 >>>>>>> 6333108 (Update Frenvi Admin)
+=======
+Thumbs.db
+>>>>>>> 96a8878 (Update Frenvi Admin)
