@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
-    base: '/admin/',
+    base: '/',
 
     optimizeDeps: {
       exclude: ['agora-rtc-sdk-ng', 'lucide-react']
