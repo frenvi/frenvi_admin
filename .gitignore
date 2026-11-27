@@ -1,0 +1,62 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 96a8878 (Update Frenvi Admin)
+# Dependencies
+node_modules
+
+# Build
+dist
+dist-ssr
+*.local
+
+# Env (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+<<<<<<< HEAD
+>>>>>>> 6333108 (Update Frenvi Admin)
+=======
+>>>>>>> 96a8878 (Update Frenvi Admin)
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+=======
+# Editor / OS
+>>>>>>> 6333108 (Update Frenvi Admin)
+=======
+# Editor / OS
+>>>>>>> 96a8878 (Update Frenvi Admin)
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Thumbs.db
+>>>>>>> 6333108 (Update Frenvi Admin)
+=======
+Thumbs.db
+>>>>>>> 96a8878 (Update Frenvi Admin)
