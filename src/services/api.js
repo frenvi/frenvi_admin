@@ -1,17 +1,5 @@
 import { io } from 'socket.io-client';
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-// Determine backend origin
-const BACKEND_URL = (typeof window !== 'undefined' && window.location.port === '3000')
-  ? (import.meta.env.VITE_BACKEND_URL || 'https://api.frenvi.co')
-  : (import.meta.env.VITE_BACKEND_URL || 'https://api.frenvi.co');
-
-const API_BASE = `${BACKEND_URL}/api`;
-
-=======
-=======
->>>>>>> 96a8878 (Update Frenvi Admin)
 // Live server from admin/.env (VITE_BACKEND_URL) — fallback stays production
 const BACKEND_URL = String(
   import.meta.env.VITE_BACKEND_URL || 'https://api.frenvi.co'
@@ -22,10 +10,6 @@ const API_BASE = `${BACKEND_URL}/api`;
 export const getBackendUrl = () => BACKEND_URL;
 export const getApiBase = () => API_BASE;
 
-<<<<<<< HEAD
->>>>>>> 6333108 (Update Frenvi Admin)
-=======
->>>>>>> 96a8878 (Update Frenvi Admin)
 export const fetchDashboardData = async () => {
   const res = await fetch(`${API_BASE}/assessments/admin/dashboard`);
   const json = await res.json();
@@ -149,17 +133,7 @@ export const sendBoonFeedback = async (id, payload = {}) => {
 };
 
 export const createSignalingSocket = () => {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  const targetUrl = import.meta.env.VITE_BACKEND_URL || BACKEND_URL || 'https://api.frenvi.co';
-
-  return io(targetUrl, {
-=======
   return io(BACKEND_URL, {
->>>>>>> 6333108 (Update Frenvi Admin)
-=======
-  return io(BACKEND_URL, {
->>>>>>> 96a8878 (Update Frenvi Admin)
     transports: ['websocket', 'polling'],
     reconnectionAttempts: 10,
     reconnectionDelay: 1000
